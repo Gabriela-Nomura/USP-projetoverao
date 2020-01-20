@@ -32,7 +32,7 @@ public class BuscaLupaValida_steps {
 		driver = Driver_Factory.configDriver();
 		Log.info("Faz a configuração do driver");
 		driver.get(constantes.URL);
-		Log.info("O Website foi acessado");
+//		Log.info("O Website foi acessado");
 
 		Driver_Factory.configExcelBusca();
 
