@@ -77,6 +77,6 @@ public class BuscaLupaValida_steps {
 	Print.takeSnapShot("TesteBuscaLupaSucesso", driver);
 	Log.info("Tira um PrintScreen");
 //	Reporter.log("A busca pela lupa foi realizada com sucesso");
-//	Driver_Factory.encerra(driver);
+	Driver_Factory.encerra(driver);
 }
 }
